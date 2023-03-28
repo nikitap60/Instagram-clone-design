@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.parent{
+    display: flex;
+    border: 1px solid red;
+}
+
+.left{
+    /* background-color: rgb(255, 255, 255); */
+    flex:10 ;
+    /* border: 1px solid red; */
+    padding: 1rem;
+
+
+}
+
+
+
+.left_box{
+    /* border: 1px solid blue; */
+}
+
+
+.left_box > .icons{
+    /* border: 1px solid red;s   */
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+
+.left_box > .icons:hover{
+    background-color: rgb(242, 242, 242);
+}
+
+
+
+.icons > i{
+    color: rgb(255, 0, 128);
+    margin-right: 0.5rem;
+}
+
+.create > i{
+    color: rgb(8, 37, 255);
+}
+
+
+.icons > span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Profile{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Profile > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.center{
+    background-color: rgb(255, 255, 255);
+    flex:20 ;
+    padding: 1rem;
+
+}
+
+
+.status{
+    /* border: 1px solid rgb(0, 38, 255); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.child_status{
+    /* border: 1px solid blue; */
+    cursor: pointer;
+}
+
+
+.child_status > span{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+.child_status > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 157);
+
+}
+
+
+
+
+
+
+
+.right{
+    background-color: rgb(255, 224, 224);
+    flex:10 ;
+
+
+
+}
